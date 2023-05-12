@@ -1,0 +1,3 @@
+app listening on url http://localhost:\\.\pipe\b5c8e7a7-5745-4c28-9540-12447b551634
+Invalid column name 'Vendor'.
+Invalid column name 'Vendor'.

@@ -1,12 +1,14 @@
-UPDATE [dbo].[CtrlBox_In]
+UPDATE [dbo].[BoxCtrl]
 SET   [Vendor]=@Vendor,
       [VendorName]=@VendorName,
-      [TranDate]=@TranDate
+      [TransDate]=@TransDate,
+      [TransType]=@TransType
 WHERE [BoxId]=@BoxId
 
 SELECT [BoxId]
       ,[Vendor]
       ,[VendorName]
-      ,[TranDate]
-  FROM [dbo].[CtrlBox_In]
+      ,[TransDate]
+      [TransType]
+  FROM [dbo].[BoxCtrl]
   WHERE [BoxId]=@BoxId
